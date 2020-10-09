@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/694043374172373025/763873709110722570/FemFitLogo.png">
+    <title>FemFit: About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/aboutstyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        body,
+        html {
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        /* Full height image header */
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("https://cdn.discordapp.com/attachments/761777207815176243/763940222085758976/girl1.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-2 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("https://cdn.discordapp.com/attachments/761777207815176243/763942775418126346/food1.jpg");
+            min-height: 100%;
+        }
+
+        .image {
+            align-content: center;
+        }
+
+        .w3-bar .w3-button {
+            padding: 16px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar" style="font-weight: 400;">
+            <a href="index.html" class="w3-bar-item w3-button w3-wide" id="logo">
+                <img src="https://cdn.discordapp.com/attachments/694043374172373025/763873709110722570/FemFitLogo.png"
+                    alt="FemFit" style="width:20px; height:20px;">
+                FEMFIT</a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-left w3-hide-small">
+                <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="trainer.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TRAINERS</a>
+                <a href="nutritionists.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> NUTRITIONISTS</a>
+            </div>
+            <div class="w3-right w3-hide-small">
+
+                <a href="application.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Apply to be a
+                    trainer!</a>
+                <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> LOGIN</a>
+                <a href="Signup.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> SIGN UP</a>
+            </div>
+            <!-- Hide left-floated links on small screens and replace them with a menu icon -->
+
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium"
+                onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+        style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close
+            ×</a>
+        <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="trainer.html" onclick="w3_close()" class="w3-bar-item w3-button">TRAINERS</a>
+        <!-- this button will take you straight to search questions and search result after questions, ask emma to do if she knows -->
+        <a href="nutritionists.html" onclick="w3_close()" class="w3-bar-item w3-button">NUTRITIONISTS</a>
+        <a href="application.html" onclick="w3_close()" class="w3-bar-item w3-button">APPLY</a>
+        <a href="Signup.html" onclick="w3_close()" class="w3-bar-item w3-button">SIGN UP</a>
+    </nav>
+
+    <!-- Work Section -->
+    <div class="w3-container" style="padding:128px 0px; background-color: #F3F3F5;" id="work">
+        <h3 class="w3-center abt-head">ABOUT US</h3>
+        <p class="w3-center w3-large">The founders and creators</p>
+
+        <div class="w3-row-padding" style="margin-top:50px; padding: 60px 16px 30px; background-color: #F8E9EE;">
+            <div class="w3-col l3 m6">
+                <img src="https://cdn.discordapp.com/attachments/761777207815176243/764010326781198366/image0.jpg"
+                    class="types" alt="KATHERINE MEACHAM">
+                <p class="caption">KATHERINE MEACHAM</p>
+                <p class="caption">UI Design Lead</p>
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="https://cdn.discordapp.com/attachments/761777207815176243/764010451498827806/Screen_Shot_2020-10-09_at_2.23.56_AM.png"
+                    class="types" alt="EMMA DANG">
+                <p class="caption">EMMA DANG</p>
+                <p class="caption">Backend Developer</p>
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="https://cdn.discordapp.com/attachments/761777207815176243/764008376719114250/image0.jpg"
+                    class="types" alt="ANGELA YOUNG">
+                <p class="caption">ANGELA YOUNG</p>
+                <p class="caption">Frontend Developer</p>
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="https://cdn.discordapp.com/attachments/761777207815176243/764010322704597003/20191018_143830_110-04.jpeg"
+                    class="types" alt="RINA YOO">
+                <p class="caption">RINA YOO</p>
+                <p class="caption">Frontend Developer</p>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="w3-center abt-head" style="margin-top:80px;">MISSION STATEMENT</h3>
+            <p class="w3-center w3-large" style="margin: 0px 250px;">The problem we tackle: Misleading information from
+                Youtube, Reddit, and influencers has led women to take advice from non-professionals, or to
+                take diet pills or follow an unhealthy diet to achieve the idealized female appearance.</p>
+            <!-- Additionally,
+                our aim is on:
+            
+                focuses on educating users about certifications empowering them to make informed choices
+                Female-focused. Emphasizes female-specific concerns, such as pregnancy/post-partum exercise and
+                dietary differences for
+                females
+                Gives female professionals a platform to shine -->
+            <p class="w3-center w3-large" style="margin: 50px 200px;">Our Solution: FemFit seeks to focus on women and
+                focus on female related health without the self-doubt, mistreatment, and the risks of underqualified
+                instructors.
+
+            </p>
+            <p class="w3-center w3-large" style="margin: 10px 250px;">
+                Our emphasis is on educating users about certifications, empowering them to make informed choices. By
+                highlighting female-specific concerns, such as pregnancy/post-partum exercise and
+                dietary differences, we want to give a voice to the under-represented female demographic.
+                Our service gives female professionals a place to shine. Additionally, FemFit is
+                here to neatly organize all your fitness sessions and health needs in one platform.
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright"
+            title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <div class="w3-row">
+            <div class="w3-col 13 m6">
+                <div class="w3-row">
+                    <a href="about.html" class="w3-bar-item w3-link">ABOUT</a>
+                </div>
+                <br>
+                <div class="w3-row">
+                    <a href="faq.html" class="w3-bar-item w3-link">FAQ</a>
+                </div>
+                <br>
+                <div class="w3-row">
+                    <a href="faq.html" class="w3-bar-item w3-link">CERTIFICATION</a>
+                </div>
+            </div>
+            <div class="w3-col 13 m6">
+                <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the
+                    top</a>
+                <div class="w3-xlarge w3-section">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i>
+                    <i class="fa fa-linkedin w3-hover-opacity"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
